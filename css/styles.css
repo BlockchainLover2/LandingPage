@@ -78,6 +78,7 @@ body{
 .card-container{
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
 
 }
 
@@ -99,8 +100,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 0 128px;
-    height: 300px;
+    padding: 50px 128px;
     justify-content: center;
     align-items: center;
 }
@@ -108,7 +108,7 @@ body{
 .quote .text-big{
     font-style: italic;
     font-size: 18px;
-    width: 600px;
+    max-width: 600px;
     color:#1f2937;
 }
 
@@ -127,13 +127,18 @@ body{
     text-align: center;
 
 }
+.layer3{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .signup-below{
     background-color: #3882f6;
     border-radius: 16px;
     padding: 48px 120px;
     color: white;
-    margin: 100px 400px;
     display: flex;
     gap: 200px;
 }
